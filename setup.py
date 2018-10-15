@@ -12,9 +12,9 @@ setup(
     url              = 'https://github.com/shohei1029/pyCircos.git',
     keywords         = 'bioinformatics',
     packages         = find_packages(),
-    python_requires  = '>=3',
+    python_requires  = '>=2.7.13, >=3.6.2',
     install_requires = [
         'biopython',
-        'matplotlib',
+        'matplotlib>=2',
         ],
 )
