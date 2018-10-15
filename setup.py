@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
  
 setup(
     name             = 'pyCircos',
-    version          = '1.0.0.dev1',
+    version          = '1.0.0.dev2',
     description      = 'Python Circos created by @ponnhide.',
      #license          = __license__,
     author           = 'S.N. and ponnhide',

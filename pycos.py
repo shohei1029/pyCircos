@@ -1,1 +1,1 @@
-from ./pycircos/pycircos.py import *
+from pycircos.pycircos import *
