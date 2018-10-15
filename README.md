@@ -19,7 +19,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt 
 from Bio import SeqIO
 sys.path.append("../../")
-import pycos as pycos
+#import pycos as pycos #old style 
+from pycircos import pycircos as pycos
 
 Set2  = plt.cm.Set2
 Set2  = [Set2(i) for i in range(6)]
